@@ -32,15 +32,26 @@ module.exports = {
             ]
         },
         {
-            test: /\.s[ac]ss$/i,
+            test: /\.(css|scss)$/,
             use: [
                 'style-loader',
                 'css-loader',
                 'sass-loader'
             ]
-        }
-        ]
-    },
+        },
+        {
+            test:/\.(png|jp(e*)g|svg|gif)$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        name: 'images/[hash]-[name].[ext]',
+                    },
+                },
+            ],
+        },
+    ]
+},
     plugins: [
         new HtmlWebpackPlugin({
             template:'./public/index.html',
@@ -53,6 +64,6 @@ module.exports = {
     devServer:{
         static: path.join(__dirname, 'dist'),
         compress: true,
-        port: 3000,
+        port:3005,
     }
 }
