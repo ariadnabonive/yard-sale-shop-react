@@ -47,4 +47,4 @@ const CreateAccount = () => {
   );
 };
 
-export { CreateAccount };
+export default CreateAccount;

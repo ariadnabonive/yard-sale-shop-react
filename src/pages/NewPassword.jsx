@@ -38,4 +38,4 @@ const NewPassword = () => {
   );
 };
 
-export { NewPassword };
+export default NewPassword;

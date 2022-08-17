@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/SendEmail.scss';
 
 const SendEmail = () => {
   return (
@@ -21,4 +22,4 @@ const SendEmail = () => {
     </div>
   );
 };
-export { SendEmail };
+export default SendEmail;

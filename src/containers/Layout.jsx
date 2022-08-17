@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../components/Header";
+import Header from '../components/Header';
 
 const Layout = ({ children }) => {
   return (
@@ -9,4 +9,4 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-export { Layout };
+export default Layout;

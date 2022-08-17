@@ -9,10 +9,10 @@ const ProductDetail = () => {
         <div classname="ProductDetail-close">
           <img src="./icons/icon_close.png" alt="close" />
         </div>
-        <productInfo/>
+        <ProductInfo/>
       </aside>
     </div>
   );
 };
 
-export { ProductDetail };
+export default ProductDetail;

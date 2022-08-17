@@ -25,4 +25,4 @@ const ProductInfo = () => {
   );
 };
 
-export { ProductInfo };
+export default ProductInfo;

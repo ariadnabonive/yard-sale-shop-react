@@ -21,4 +21,4 @@ const ProductItem = () => {
   );
 };
 
-export { ProductItem };
+export default ProductItem;

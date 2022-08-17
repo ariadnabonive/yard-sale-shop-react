@@ -1,6 +1,5 @@
-import React from "react";
-import OrderItem from "../components/OrderItem";
-import "../styles/MyOrder.scss";
+import React from 'react';
+import '../styles/MyOrder.scss';
 
 const MyOrder = () => {
   return (
@@ -24,4 +23,4 @@ const MyOrder = () => {
   );
 };
 
-export { MyOrder };
+export default MyOrder;

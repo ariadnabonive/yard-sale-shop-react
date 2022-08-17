@@ -14,4 +14,4 @@ const Order = () => {
   );
 };
 
-export { Order };
+export default Order;

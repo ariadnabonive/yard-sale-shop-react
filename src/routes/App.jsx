@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from '../containers/Layout';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-// import CreateNewPassword from '../pages/CreateNewPassword';
+import PasswordRecovery from '../pages/PasswordRecovery';
 import SendEmail from '../pages/SendEmail';
 import NewPassword from '../pages/NewPassword';
 import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
-import Checkout from '../pages/Checkout';
+import Checkout from '../pages/Chechout'
 import Orders from '../pages/Orders';
 import NotFound from '../pages/NotFound';
 import "../styles/global.css";
@@ -21,8 +21,7 @@ const App = () => {
           <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Navigate to="/" />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path="/password-recovery" element={<PasswordRecovery/>} />
-          <Route path="/create-new-password" element={<CreateNewPassword/>} /> */}
+          <Route path="/password-recovery" element={<PasswordRecovery/>} />
           <Route path="/send-email" element={<SendEmail/>} />
           <Route path="/new-password" element={<NewPassword/>} />
           <Route path="/account" element={<MyAccount/>} />
