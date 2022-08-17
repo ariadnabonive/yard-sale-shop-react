@@ -19,6 +19,6 @@ const Menu = () => {
       </ul>
     </div>
   );
-};
+}
 
 export { Menu };

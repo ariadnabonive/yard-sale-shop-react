@@ -3,11 +3,10 @@ import { Header } from "../components/Header";
 
 const Layout = ({ children }) => {
   return (
-    <div className="Layout">
+    <div classname="Layout">
       <Header />
-      {children}
+        {children}
     </div>
   );
 };
-
 export { Layout };

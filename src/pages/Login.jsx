@@ -1,24 +1,41 @@
-import React from 'react';
-import '../styles/Login.scss';
-
+import React from "react";
+import "../styles/Login.scss";
 
 const Login = () => {
-    return (
-    <div className="Login">
-        <div className="Login-container">
-            <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
-            <form action="/" className="form">
-                <label htmlFor="email" className="label">Email address</label>
-                <input type="text" id="email" placeholder="platzi@example.cm" className="input input-email" />
-                <label htmlFor="password" className="label">Password</label>
-                <input type="password" id="password" placeholder="*********" className="input input-password" />
-                <input type="submit" defaultValue="Log in" className="primary-button login-button" />
-                <a href="/">Forgot my password</a>
-            </form>
-            <button className="secondary-button signup-button">Sign up</button>
-        </div>
+  return (
+    <div classname="Login">
+      <div classname="Login-container">
+        <img src="./logos/logo_yard_sale.svg" alt="logo" classname="logo" />
+        <form action="/" classname="form">
+          <label htmlfor="email" classname="label">
+            Email address
+          </label>
+          <input
+            type="text"
+            id="email"
+            placeholder="platzi@example.cm"
+            classname="input input-email"
+          />
+          <label htmlfor="password" classname="label">
+            Password
+          </label>
+          <input
+            type="password"
+            id="password"
+            placeholder="*********"
+            classname="input input-password"
+          />
+          <input
+            type="submit"
+            defaultvalue="Log in"
+            classname="primary-button login-button"
+          />
+          <a href="/">Forgot my password</a>
+        </form>
+        <button classname="secondary-button signup-button">Sign up</button>
+      </div>
     </div>
-    );
-}
+  );
+};
 
-export { Login }; 
+export { Login };
