@@ -3,43 +3,43 @@ import "../styles/CreateAccount.scss";
 
 const CreateAccount = () => {
   return (
-    <div classname="CreateAccount">
-      <div classname="CreateAccount-container">
-        <h1 classname="title">My account</h1>
-        <form action="/" classname="form">
+    <div className="CreateAccount">
+      <div className="CreateAccount-container">
+        <h1 className="title">My account</h1>
+        <form action="/" className="form">
           <div>
-            <label htmlfor="name" classname="label">
+            <label htmlfor="name" className="label">
               Name
             </label>
             <input
               type="text"
               id="name"
               placeholder="Teff"
-              classname="input input-name"
+              className="input input-name"
             />
-            <label htmlfor="email" classname="label">
+            <label htmlfor="email" className="label">
               Email
             </label>
             <input
               type="text"
               id="email"
               placeholder="platzi@example.com"
-              classname="input input-email"
+              className="input input-email"
             />
-            <label htmlfor="password" classname="label">
+            <label htmlfor="password" className="label">
               Password
             </label>
             <input
               type="password"
               id="password"
               placeholder="*********"
-              classname="input input-password"
+              className="input input-password"
             />
           </div>
           <input
             type="submit"
             defaultvalue="Create"
-            classname="primary-button login-button"
+            className="primary-button login-button"
           />
         </form>
       </div>

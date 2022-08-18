@@ -3,7 +3,7 @@ import "../styles/Order.scss";
 
 const Order = () => {
   return (
-    <div classname="Order">
+    <div className="Order">
       <p>
         <span>03.25.21</span>
         <span>6 articles</span>

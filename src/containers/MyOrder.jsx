@@ -3,20 +3,20 @@ import '../styles/MyOrder.scss';
 
 const MyOrder = () => {
   return (
-    <aside classname="MyOrder">
-      <div classname="title-container">
+    <aside className="MyOrder">
+      <div className="title-container">
         <img src="./icons/flechita.svg" alt="arrow" />
-        <p classname="title">My order</p>
+        <p className="title">My order</p>
       </div>
-      <div classname="my-order-content">
+      <div className="my-order-content">
         <orderitem>
-          <div classname="order">
+          <div className="order">
             <p>
               <span>Total</span>
             </p>
             <p>$560.00</p>
           </div>
-          <button classname="primary-button">Checkout</button>
+          <button className="primary-button">Checkout</button>
         </orderitem>
       </div>
     </aside>

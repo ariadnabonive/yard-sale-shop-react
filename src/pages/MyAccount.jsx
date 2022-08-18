@@ -3,8 +3,8 @@ import "../styles/MyAccount.scss";
 
 const MyAccount = () => {
   return (
-    <div classname="MyAccount">
-      <div classname="MyAccount-container">
+    <div className="MyAccount">
+      <div className="MyAccount-container">
         <h1 className="title">My account</h1>
         <form action="/" className="form">
           <div>
@@ -24,7 +24,7 @@ const MyAccount = () => {
           <input
             type="submit"
             defaultValue="Edit"
-            classname="secondary-button login-button"
+            className="secondary-button login-button"
           />
         </form>
       </div>

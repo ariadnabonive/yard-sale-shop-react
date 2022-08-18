@@ -3,36 +3,36 @@ import "../styles/Login.scss";
 
 const Login = () => {
   return (
-    <div classname="Login">
-      <div classname="Login-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" classname="logo" />
-        <form action="/" classname="form">
-          <label htmlfor="email" classname="label">
+    <div className="Login">
+      <div className="Login-container">
+        <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+        <form action="/" className="form">
+          <label htmlfor="email" className="label">
             Email address
           </label>
           <input
             type="text"
             id="email"
             placeholder="platzi@example.cm"
-            classname="input input-email"
+            className="input input-email"
           />
-          <label htmlfor="password" classname="label">
+          <label htmlfor="password" className="label">
             Password
           </label>
           <input
             type="password"
             id="password"
             placeholder="*********"
-            classname="input input-password"
+            className="input input-password"
           />
           <input
             type="submit"
             defaultvalue="Log in"
-            classname="primary-button login-button"
+            className="primary-button login-button"
           />
           <a href="/">Forgot my password</a>
         </form>
-        <button classname="secondary-button signup-button">Sign up</button>
+        <button className="secondary-button signup-button">Sign up</button>
       </div>
     </div>
   );

@@ -4,9 +4,9 @@ import "../styles/Header.scss";
 const Header = () => {
   return (
     <nav>
-      <img src="./icons/icon_menu.svg" alt="menu" classname="menu " />
-      <div classname="navbar-left">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" classname="logo" />
+      <img src="./icons/icon_menu.svg" alt="menu" className="menu" />
+      <div className="navbar-left">
+        <img src="./logos/logo_yard_sale.svg" alt="logo" className="nav-logo" />
         <ul>
           <li>
             <a href="/">All</a>
@@ -28,10 +28,10 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div classname="navbar-right">
+      <div className="navbar-right">
         <ul>
-          <li classname="navbar-email">platzi@example.com</li>
-          <li classname="navbar-shopping-cart">
+          <li className="navbar-email">platzi@example.com</li>
+          <li className="navbar-shopping-cart">
             <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
             <div>2</div>
           </li>

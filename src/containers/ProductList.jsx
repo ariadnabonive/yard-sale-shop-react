@@ -4,8 +4,8 @@ import '../styles/ProductList.scss';
 
 const ProductList = () => {
   return (
-    <section classname="main-container">
-      <div classname="ProductList">
+    <section className="main-container">
+      <div className="ProductList">
         <ProductItem />
       </div>
     </section>
