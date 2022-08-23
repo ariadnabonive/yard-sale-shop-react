@@ -1,15 +1,15 @@
 {
+  "homepage": "https://ariadnabonive.github.io/proyectoYardSale/",
   "name": "proyectoyardsale",
   "version": "1.0.0",
   "description": "React Shop",
   "main": "src/index.js",
-  //"homepage": "https://",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    //"deploy": "gh-pages " 
+    "deploy":"gh-pages -b master -d dist"
   },
   "engines": {
     "node": "14.x"
